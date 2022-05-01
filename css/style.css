@@ -1,0 +1,27 @@
+/* colores 
+   #F3F5FC ; color fondo principal
+   #0A3871 ; color texto,logo y btn encriptar
+   #343A40 ; texto ningun mensaje encontrado
+   #495057 ; ingrsa txt para des... y ! solo ...
+   #ffffff ; fondo tajeta respuesta
+ */
+
+/** generales */
+body{
+   background-color: #f3f5fc;
+   font-family: 'Inter', sans-serif;
+   width: 100%;
+   margin: 0 auto;
+}
+
+/** header */
+.logo-pc{
+   display: none;
+}
+
+/** main */
+.img-desktop{
+   display: none;
+}
+
+/** footer */

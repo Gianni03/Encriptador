@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+   <!-- Css -->
+   <link rel="stylesheet" href="./css/normalize.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Encriptador</title>
+</head>
+<body>
+
+   <header class="header">
+      <h1><img src="./img/logo.png" alt="logo alura" class="logo-mobil">
+      <img src="./img/logo2x.png" alt="logo alura" class="logo-pc"></h1>
+   </header>
+
+   <main class="container">
+
+      <section class="texto">
+         <div class="texto-ingresado">
+
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Ingrese el texto aquí" autofocus></textarea>
+
+         </div>
+         <div class="botones">
+
+            <span class="aclaracion"><img src="./img/Vector.svg" alt="atencion"> Solo letras minúsculas y sin acentos</span>
+            <button type="submit" class="btn btn-encriptar">Encriptar</button>
+            <button type="submit" class="btn btn-desencriptar">Desencriptar</button>
+
+         </div>
+
+      </section>
+
+      <section class="texto-encriptado">
+
+         <div class="cuadro-respuesta">
+
+            <img src="./img/persona.png" alt="persona con lupa" class="img-desktop">
+            <p class="respuesta off">Ningún mensaje fue encontrado</p>
+            <p class="ayuda off">ingresa el texto que desees encriptar o desencriptar</p>
+            <p class="respuesta off"></p>
+            <button type="submit" class="btn btn-copiar">Copiar</button>
+
+         </div>
+
+      </section>
+
+   </main>
+
+   <footer class="footer">
+
+      <ul class="desarrollo">
+         <li>Desarrollado por:</li>
+         <li>Gianni Pasquinelli</li>
+         <li>giannipasquinelli@gmail.com</li>
+         <li>likedIn</li>
+      </ul>
+      
+   </footer>
+   
+</body>
+</html>

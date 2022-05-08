@@ -46,9 +46,11 @@
 
          <div class="cuadro-respuesta">
 
-            <img src="./img/persona.png" alt="persona con lupa" class="img-desktop">
-            <p class="respuesta off">Ningún mensaje fue encontrado</p>
-            <p class="ayuda off">ingresa el texto que desees encriptar o desencriptar</p>
+            <div class="contenedor-imagen" id="borrar-img">
+               <img src="./img/persona.png" alt="persona con lupa" class="img-desktop">
+            </div>
+            <p class="respuesta" id="borrar-resp">Ningún mensaje fue encontrado</p>
+            <p class="ayuda" id="borrar-ayuda">ingresa el texto que desees encriptar o desencriptar</p>
             <p class="encriptacion"></p>
             <button type="submit" class="btn btn-copiar">Copiar</button>
 
@@ -73,6 +75,11 @@
       </div>
       
    </footer>
+
+   <script src="./js/variables.js"></script>
+   <script src="./js/encriptar.js"></script>
+   <!-- <script src="./js/copia1.js"></script> -->
+   <!-- <script src="./js/copia2.js"></script> -->
    
 </body>
 </html>

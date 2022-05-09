@@ -10,9 +10,7 @@ btnEncriptar.addEventListener('click', ()=>{
 // encriptacion
 function texto(){
    if (textoIngresado.value != ''){
-      console.log(textoIngresado.value)
       encriptar = textoIngresado.value.toLowerCase().replace(/e/g,'enter').replace(/i/gm,'imes').replace(/a/g, 'ai').replace(/o/g,'ober').replace(/u/g,'ufat')
-      console.log(encriptar)
       return
    }else{
       alert("ingrese un texto por favor!")
@@ -80,7 +78,6 @@ btnDesencriptar.addEventListener('click', ()=>{
 function desencriptarRespuesta() {
 // desencriptacion
 desencriptar = encriptar.replace(/ai/g, "a").replace(/enter/g, "e").replace(/imes/g, "i").replace(/ober/g, "o").replace(/ufat/g, "u")
-console.log(desencriptar)
 textoIngresado.textContent = desencriptar
 }
 

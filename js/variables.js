@@ -13,6 +13,9 @@ const btnDesencriptar = document.querySelector(".btn-desencriptar");
 // cuadro de respuestas y sus elemnetos
 let textoRespuesta = document.querySelector(".encriptacion");
 const btnCopiar = document.querySelector('.btn-copiar');
+let encriptar = ""
+let desencriptar = ""
+const vaciar = ""
 
 // css borrar
 const borrarImg = document.getElementById("borrar-img")
